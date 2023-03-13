@@ -1,22 +1,22 @@
 import * as React from "react"
 import { Projects } from "../../data/projects"
 import Layout from "../components/layout/Layout"
-import Skills from "../components/skills"
-import Logo from "../images/github.svg"
+// import Skills from "../components/skills"
+// import Logo from "../images/github.svg"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <div className="bg-blue-400 text-white text-4xl pb-9 px-12 mb-8">
+      <div className="bg-zinc-800 text-white text-4xl md:pb-9 md:px-12 p-6 mb-8">
         <div className="font-black text-5xl">Sarah Kapalka</div>
-        <small>Front end developer | illustrator</small>
+        <small className="text-lg">Front end developer | illustrator</small>
       </div>
       <div className="flex flex-wrap gap-8 m-8 justify-center">
         {Projects.map((project, index) => {
           return(
             <div className="shadow-md w-[400px] hover:shadow-xl hover:-translate-y-2 flex flex-col justify-between transition">
               <div className="p-4">
-                <a href={project.url} className="text-2xl font-black text-blue-400">{project.title}</a>
+                <a href={project.url} className="text-2xl font-black texg-zinc-800">{project.title}</a>
                 <div className="mt-4">{project.subTitle}</div>
                 <div className="flex flex-wrap gap-3 my-3">
                   {project.skills.map((tag, index) => <div className="py-1 px-3 rounded-full bg-gray-100 text-xs">{tag}</div>)}
@@ -24,16 +24,16 @@ const IndexPage = () => {
                 {project.reference.url && (
                   <div className="flex gap-3 items-center">
                     <div className="font-light">Reference:</div>
-                    <a href={project.reference.url} className="text-blue-400 py-1 px-3 rounded-full border border-transparent hover:border-blue-400 transition-all">
+                    <a href={project.reference.url} className="texg-zinc-800 py-1 px-3 rounded-full border border-transparent hover:bordeg-zinc-800 transition-all">
                       {project.reference.name}
                     </a>
                   </div>
                 )}
               </div>
               <div className="w-full px-4 pb-4 flex gap-1">
-                <a href="#" className="hover:opacity-50 transition-all">
+                {/* <a href="#" className="hover:opacity-50 transition-all">
                   <img src={Logo} height={40} width={40} alt="github-logo" />
-                </a>
+                </a> */}
                 <a href={project.url} target="_blank" rel="noreferrer" className="rounded-md bg-amber-500 block py-2 text-center hover:bg-amber-400 transition grow">
                   View Site
                 </a>

@@ -10,7 +10,7 @@ export const Projects = [
     },
     {
         title: "Dribble clone",
-        subTitle: "A clone project of a design from Dribble",
+        subTitle: "A clone project of a design from Dribble showing my ability in styling",
         url: "https://dribble-clone-olive.vercel.app/",
         skills:
           ["TailwindCSS", "Javascript", "Reactjs", "NEXTjs"],
@@ -21,7 +21,7 @@ export const Projects = [
       },
       {
         title: "Dior Products",
-        subTitle: "A project that fetches data fron a REST API (products are maybelline not Dior)",
+        subTitle: "A project that fetches data from a REST API (products are maybelline not Dior)",
         url: "https://dior-royb.vercel.app/products",
         skills:
           ["CSS3", "Javascript", "Reactjs", "NEXTjs", "REST API"],
@@ -32,7 +32,7 @@ export const Projects = [
       },
       {
         title: "Portfolio",
-        subTitle: "A perfect score website is a website that scores 100% across all categories on the Chrome Lighthouse audit report",
+        subTitle: "A website that scores 100% across all categories on the Chrome Lighthouse audit report",
         url: "#",
         skills:
           ["TailwindCSS", "gatsby", "Javascript", "Reactjs"],

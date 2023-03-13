@@ -7,8 +7,9 @@ function Layout({ children }) {
     <div>
         <Helmet>
             <title>Portfolio</title>
+            <meta name='description' content="A website that scores 100% across all categories on the Chrome Lighthouse audit report showcasing Sarah Kapalka's best projects" />
         </Helmet>
-        <div className="px-10 text-lg text-white flex gap-4 justify-end items-center bg-blue-400">
+        <div className="sm:pr-6 pr-4 text-lg text-white flex gap-2 sm:gap-4 justify-end items-center bg-zinc-800">
             <Link className="px-4 py-2" to='/'>Projects</Link>
             <Link className="px-4 py-2" to='/about'>About me</Link>
          </div>
