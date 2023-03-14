@@ -11,10 +11,10 @@ const IndexPage = () => {
         <div className="font-black text-5xl">Sarah Kapalka</div>
         <small className="text-lg">Front end developer | illustrator</small>
       </div>
-      <div className="flex flex-wrap gap-8 m-8 justify-center">
+      <div className="flex flex-wrap gap-y-10 gap-x-8 m-8 justify-center">
         {Projects.map((project, index) => {
           return(
-            <div className="shadow-md w-[400px] hover:shadow-xl hover:-translate-y-2 flex flex-col justify-between transition">
+            <div className="shadow-md w-[450px] md:w-[380px] hover:shadow-xl hover:-translate-y-2 flex flex-col justify-between transition">
               <div className="p-4">
                 <a href={project.url} className="text-2xl font-black texg-zinc-800">{project.title}</a>
                 <div className="mt-4">{project.subTitle}</div>
@@ -24,7 +24,7 @@ const IndexPage = () => {
                 {project.reference.url && (
                   <div className="flex gap-3 items-center">
                     <div className="font-light">Reference:</div>
-                    <a href={project.reference.url} className="texg-zinc-800 py-1 px-3 rounded-full border border-transparent hover:bordeg-zinc-800 transition-all">
+                    <a href={project.reference.url} className="texg-zinc-800 py-1 px-3 rounded-full border border-white hover:border-zinc-800 transition-all">
                       {project.reference.name}
                     </a>
                   </div>

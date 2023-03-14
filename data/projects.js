@@ -32,8 +32,8 @@ export const Projects = [
       },
       {
         title: "Portfolio",
-        subTitle: "A website that scores 100% across all categories on the Chrome Lighthouse audit report",
-        url: "#",
+        subTitle: "A website that scores 100% performance across all four categories on the Chrome Lighthouse audit report",
+        url: "https://sarah-kapalka.netlify.app/",
         skills:
           ["TailwindCSS", "gatsby", "Javascript", "Reactjs"],
         reference: {},
@@ -41,9 +41,12 @@ export const Projects = [
       {
         title: "Rick and Morty characters",
         subTitle: "A project that uses Apollo client with graphQL",
-        url: "#",
+        url: "https://rick-and-morty-kapalka.vercel.app/",
         skills:
           ["CSS3", "Javascript", "Reactjs", "NEXTjs", "GraphQL", "Apollo Client"],
-        reference: {},
+        reference: {
+          url: "https://rickandmortyapi.com/graphql",
+          name: "Rick and Morty API"
+        },
       },
   ]
