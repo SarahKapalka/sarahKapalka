@@ -20,7 +20,7 @@ function About() {
         </div>
         <div>
           <div><span className='text-md font-light opacity-50'>Email:</span> sarahnj73bc@gmail.com</div>
-          <div><span className='text-md font-light opacity-50'>Github:</span> <a href='https://github.com/SarahKapalka'>Click here to view github profile</a></div>
+          <div><span className='text-md font-light opacity-50'>Github:</span> Click <a target="_blank" rel="noreferrer" href='https://github.com/SarahKapalka' className="hover:underline font-bold text-amber-500">here</a> to view github profile</div>
         </div>
       </div>
     </Layout>

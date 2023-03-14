@@ -4,6 +4,7 @@ export const Projects = [
       title: "Qwizard",
       subTitle: "A CRUD project for creating, updating and deleting quizzes",
       url: "https://qwizard-ten.vercel.app/",
+      repo: "https://github.com/SarahKapalka/qwizard",
       skills:
         ["CSS3", "SASS", "Javascript", "Reactjs", "NEXTjs", "Mongoose", "REST API"],
       reference: {},
@@ -12,6 +13,7 @@ export const Projects = [
         title: "Dribble clone",
         subTitle: "A clone project of a design from Dribble showing my ability in styling",
         url: "https://dribble-clone-olive.vercel.app/",
+        repo: "https://github.com/SarahKapalka/dribble-clone",
         skills:
           ["TailwindCSS", "Javascript", "Reactjs", "NEXTjs"],
         reference: {
@@ -23,6 +25,7 @@ export const Projects = [
         title: "Dior Products",
         subTitle: "A project that fetches data from a REST API (products are maybelline not Dior)",
         url: "https://dior-royb.vercel.app/products",
+        repo: "https://github.com/SarahKapalka/dior",
         skills:
           ["CSS3", "Javascript", "Reactjs", "NEXTjs", "REST API"],
         reference: {
@@ -34,6 +37,7 @@ export const Projects = [
         title: "Portfolio",
         subTitle: "A website that scores 100% performance across all four categories on the Chrome Lighthouse audit report",
         url: "https://sarah-kapalka.netlify.app/",
+        repo: "https://github.com/SarahKapalka/sarahKapalka",
         skills:
           ["TailwindCSS", "gatsby", "Javascript", "Reactjs"],
         reference: {},
@@ -42,6 +46,7 @@ export const Projects = [
         title: "Rick and Morty characters",
         subTitle: "A project that uses Apollo client with graphQL",
         url: "https://rick-and-morty-kapalka.vercel.app/",
+        repo: "https://github.com/SarahKapalka/nextjs-practical",
         skills:
           ["CSS3", "Javascript", "Reactjs", "NEXTjs", "GraphQL", "Apollo Client"],
         reference: {

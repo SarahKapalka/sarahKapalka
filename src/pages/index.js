@@ -37,6 +37,9 @@ const IndexPage = () => {
                 <a href={project.url} target="_blank" rel="noreferrer" className="rounded-md bg-amber-500 block py-2 text-center hover:bg-amber-400 transition grow">
                   View Site
                 </a>
+                <a href={project.repo} target="_blank" rel="noreferrer" className="hover:bg-zinc-900 hover:text-white border border-zinc-900 rounded-md text-center py-2 px-3 transition-all">
+                  Repo
+                </a>
               </div>
             </div>
           )
